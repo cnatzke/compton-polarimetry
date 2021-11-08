@@ -1,0 +1,16 @@
+#ifndef COMPTON_POL_H
+#define COMPTON_POL_H
+
+// versioning
+#define ComptonPolarimetry_VERSION_MAJOR @ComptonPolarimetry_VERSION_MAJOR@
+#define ComptonPolarimetry_VERSION_MINOR @ComptonPolarimetry_VERSION_MINOR@
+
+#include "TFile.h"
+
+int main(int argc, char **argv);
+void InitGRSISort();
+void PrintUsage(char* argv[]);
+
+std::string grsi_path;
+
+#endif
